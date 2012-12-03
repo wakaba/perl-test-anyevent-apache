@@ -1,0 +1,26 @@
+=head1 NAME
+
+Test::AnyEvent::Apache - AnyEvent module for testing Apache HTTP server 2
+
+=head1 DESCRIPTION
+
+XXX
+
+=head1 AUTHOR
+
+Wakaba <wakabatan@hatena.ne.jp>.
+
+=head1 ACKNOWLEDGEMENTS
+
+The module derived from L<Test::Apache::RewriteRules>.  The
+L<Test::AnyEvent::Apache::Net::TCP::FindPort> module derived from
+L<Net::TCP::FindPort>.
+
+=head1 LICENSE
+
+Copyright 2012 Hatena <http://www.hatena.com/>.
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
+=cut
