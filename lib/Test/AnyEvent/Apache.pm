@@ -155,6 +155,10 @@ sub generate_conf_as_cv {
     }
     
     $self->server_root_d->subdir('logs')->mkpath;
+    # XXX blocking
+    $self->server_root_d->file('logs', 'startup_log')->openw;
+    $self->server_root_d->file('logs', 'access_log')->openw;
+    $self->server_root_d->file('logs', 'error_log')->openw;
 
     my $pid_f = $self->pid_f;
 
@@ -265,6 +269,7 @@ sub start_apache_as_cv {
         my $conf_f = $self->conf_f;
         my $root_d = $self->server_root_d;
         my $pid_f = $self->pid_f;
+        $self->tail_as_cv;
         warn "Starting apache with $conf_f...\n" if $DEBUG;
         $self->run_httpd_as_cv(
             ['-f' => $conf_f->stringify, '-k' => 'start', '-E', $self->server_root_d->file('logs', 'startup_log')->stringify],
@@ -294,6 +299,7 @@ sub start_apache_as_cv {
 sub stop_apache_as_cv {
     my $self = shift;
     my $cv = AE::cv;
+    my $cv1 = AE::cv;
     my $conf_f = $self->conf_f;
     my $i = 0;
     my $pid_f = $self->pid_f;
@@ -309,7 +315,7 @@ sub stop_apache_as_cv {
                     unless (-f $pid_f) {
                         undef $w;
                         undef $timer;
-                        $cv->send(1);
+                        $cv1->send(1);
                     }
                     if ($j++ >= 10_00) {
                         undef $w;
@@ -320,11 +326,40 @@ sub stop_apache_as_cv {
                 if ($i++ > 5) {
                     warn "$0: $FoundHTTPDPath: Cannot stop apache\n";
                     undef $timer;
-                    $cv->send(0);
+                    $cv1->send(0);
                 }
             }
         });
     };
+    $cv1->cb(sub {
+        kill 'TERM', $self->{tail_pid} if $self->{tail_pid};
+        $cv->send($_[0]->recv);
+    });
+    return $cv;
+}
+
+sub tail_as_cv {
+    my $self = shift;
+    my $cv = AE::cv;
+    if ($self->{tail_pid}) {
+        $cv->send;
+        return $cv;
+    }
+    my $logs_f = $self->server_root_d->file('logs', '*_log');
+    (run_cmd
+        ['tail', '-f', glob $logs_f],
+        '$$' => \($self->{tail_pid}),
+        '>' => sub {
+            return unless defined $_[0];
+            my $s = 'Log: ' . $_[0];
+            $s =~ s/\n/\nLog: /g;
+            $s .= "\n" unless $s =~ s/\n$//;
+            print STDERR $s;
+        },
+    )->cb(sub {
+        delete $self->{tail_pid};
+        $cv->send;
+    });
     return $cv;
 }
 
