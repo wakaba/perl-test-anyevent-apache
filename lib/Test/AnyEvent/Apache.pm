@@ -235,15 +235,17 @@ sub run_httpd_as_cv {
     if ($DEBUG) {
         warn '$ ' . join(' ', $FoundHTTPDPath, @$args) . "\n";
     }
+    my $pid;
     (
         run_cmd
             [$FoundHTTPDPath, @$args],
             '>' => $opt{onstdout} || sub {
-                warn "HTTPD(o): $_[0]" if defined $_[0];
+                warn "$$ HTTPD($pid o): $_[0]" if defined $_[0];
             },
             '2>' => $opt{onstderr} || sub {
-                warn "HTTPD(e): $_[0]" if defined $_[0];
+                warn "$$: HTTPD($pid e): $_[0]" if defined $_[0];
             },
+            '$$' => \$pid,
     )->cb(sub {
         my $result = $_[0]->recv;
         if ($result == -1) {
