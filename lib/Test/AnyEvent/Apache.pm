@@ -107,6 +107,14 @@ sub dso_path_as_cv {
                 $cv->send($self->{dso_path} = $path);
             });
         } else {
+            for (
+                '/usr/lib/apache2/modules',
+            ) {
+                if (-f "$_/mod_mime.so") {
+                    $cv->send($self->{dso_path} = $_);
+                    return $cv;
+                }
+            }
             $cv->send($self->{dso_path} = 'modules');
         }
     }
@@ -127,6 +135,9 @@ sub port_as_cv {
 }
 
 sub port {
+    if (@_ > 1) {
+        $_[0]->{port} = $_[1];
+    }
     return $_[0]->{port};
 }
 
