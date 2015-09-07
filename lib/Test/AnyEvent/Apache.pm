@@ -1,6 +1,7 @@
 package Test::AnyEvent::Apache;
 use strict;
 use warnings;
+our $VERSION = '1.0';
 use AnyEvent;
 use AnyEvent::Util;
 use Path::Class;
