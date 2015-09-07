@@ -6,9 +6,38 @@ Test::AnyEvent::Apache - AnyEvent module for testing Apache HTTP server 2
 
 XXX
 
+=head1 METHODS
+
+XXX
+
+=over 4
+
+=item $apache->port ($port)
+
+=item $port = $apache->port
+
+Get or set port listened by Apache.
+
+Before the apache process has started, this method returns an C<undef>
+value unless the port is explicitly specified by the application using
+the setter.
+
+The method can be used to specify the port number if it is invoked
+with a port number, when it is invoked B<before> the invocation of the
+C<start_apache_as_cv> method.  If no port number is explicitly
+specified when the invocation of that method, an unused port is
+assigned.
+
+=back
+
+=head1 DEPENDENCY
+
+The module requires Perl 5.10 or later, Apache2, L<AnyEvent>, and
+L<Path::Class>.
+
 =head1 AUTHOR
 
-Wakaba <wakabatan@hatena.ne.jp>.
+Wakaba <wakaba@suikawiki.org>.
 
 =head1 ACKNOWLEDGEMENTS
 
@@ -19,6 +48,8 @@ L<Net::TCP::FindPort>.
 =head1 LICENSE
 
 Copyright 2012 Hatena <http://www.hatena.com/>.
+
+Copyright 2015 Wakaba <wakaba@suikawiki.org>.
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
