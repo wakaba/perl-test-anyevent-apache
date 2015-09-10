@@ -1,14 +1,14 @@
 Net::SSLeay~1.70
 Pod::Usage~1.67
 Pod::Text~3.18
-HTTP::Status~6.10
+HTTP::Status~6.11
 IO::HTML~1.001
 Encode~2.76
 CPAN::Meta~2.150005
 HTTP::Daemon~6.01
 Module::Build~0.4214
 List::MoreUtils~0.413
-ExtUtils::MakeMaker~7.06
+ExtUtils::MakeMaker~7.08
 ExtUtils::ParseXS~3.30
 Crypt::OpenSSL::RSA~0.28
 Canary::Stability~2006
