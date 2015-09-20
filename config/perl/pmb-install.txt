@@ -66,7 +66,7 @@ HTTP::Negotiate~6.01
 LWP::Protocol::https~6.06
 MRO::Compat~0.12
 OAuth::Lite::Consumer
-IO::Socket::SSL~2.019
+IO::Socket::SSL~2.020
 Digest::SHA1~2.13
 HTTP::Date~6.02
 JSON::PP~2.27300
