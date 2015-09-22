@@ -1,4 +1,4 @@
-Net::SSLeay~1.71
+Net::SSLeay~1.72
 Pod::Usage~1.67
 Pod::Text~3.18
 HTTP::Status~6.11
@@ -22,7 +22,7 @@ Module::Runtime~0.014
 Filter::Util::Call~1.55
 HTML::Entities~3.69
 Socket~2.020
-Perl::OSType~1.008
+Perl::OSType~1.009
 ExtUtils::CBuilder~0.280223
 Net::HTTP~6.09
 Parse::CPAN::Meta~1.4417
