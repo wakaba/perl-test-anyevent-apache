@@ -12,7 +12,7 @@ ExtUtils::MakeMaker~7.10
 ExtUtils::ParseXS~3.30
 Crypt::OpenSSL::RSA~0.28
 Canary::Stability~2006
-Compress::Raw::Bzip2~2.068
+Compress::Raw::Bzip2~2.069
 Path::Class~0.35
 common::sense~3.74
 IO::Socket::Socks~0.67
@@ -52,11 +52,11 @@ Test::Class~0.50
 Exporter::Lite~0.06
 AnyEvent::HTTP~2.22
 HTTP::Cookies~6.01
-Compress::Raw::Zlib~2.068
+Compress::Raw::Zlib~2.069
 AnyEvent::HTTP::Socks~0.05
 CPAN::Meta::Requirements~2.133
 File::Temp~0.2304
-IO::Compress::Bzip2~2.068
+IO::Compress::Bzip2~2.069
 WWW::RobotRules~6.02
 LWP~6.13
 Module::Metadata~1.000027
