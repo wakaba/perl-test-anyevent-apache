@@ -38,7 +38,7 @@ HTML::Tagset~3.20
 Exporter::Tiny~0.042
 ExtUtils::Constant~0.23
 File::Listing~6.04
-Crypt::OpenSSL::Random~0.10
+Crypt::OpenSSL::Random~0.11
 AnyEvent::Util
 Test::Builder~1.001014
 Digest::SHA~5.95
