@@ -23,7 +23,7 @@ Filter::Util::Call~1.55
 HTML::Entities~3.69
 Socket~2.020
 Perl::OSType~1.009
-ExtUtils::CBuilder~0.280223
+ExtUtils::CBuilder~0.280224
 Net::HTTP~6.09
 Parse::CPAN::Meta~1.4417
 URI~1.69
