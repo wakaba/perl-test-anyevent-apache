@@ -30,7 +30,7 @@ URI~1.69
 version~0.9912
 Class::Accessor~0.34
 CPAN::Meta::YAML~0.016
-Carp~1.36
+Carp~1.38
 Class::ErrorHandler~0.04
 LWP::UserAgent~6.13
 MIME::Base64~3.15
