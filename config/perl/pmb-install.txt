@@ -1,6 +1,6 @@
 Net::SSLeay~1.72
 Pod::Usage~1.67
-Pod::Text~3.18
+Pod::Text~4.03
 HTTP::Status~6.11
 IO::HTML~1.001
 Encode~2.78
@@ -21,7 +21,7 @@ LWP::MediaTypes~6.02
 Module::Runtime~0.014
 Filter::Util::Call~1.55
 HTML::Entities~3.69
-Socket~2.020
+Socket~2.021
 Perl::OSType~1.009
 ExtUtils::CBuilder~0.280224
 Net::HTTP~6.09
@@ -29,10 +29,10 @@ Parse::CPAN::Meta~1.4417
 URI~1.69
 version~0.9912
 Class::Accessor~0.34
-CPAN::Meta::YAML~0.016
+CPAN::Meta::YAML~0.018
 Carp~1.38
 Class::ErrorHandler~0.04
-LWP::UserAgent~6.13
+LWP::UserAgent~6.15
 MIME::Base64~3.15
 HTML::Tagset~3.20
 Exporter::Tiny~0.042
@@ -43,9 +43,9 @@ AnyEvent::Util
 Test::Builder~1.001014
 Digest::SHA~5.95
 Crypt::SSLeay~0.72
-Try::Tiny~0.22
+Try::Tiny~0.24
 Getopt::Long~2.48
-Term::ANSIColor~4.03
+Term::ANSIColor~4.04
 parent~0.234
 AnyEvent~7.11
 Test::Class~0.50
@@ -54,11 +54,11 @@ AnyEvent::HTTP~2.22
 HTTP::Cookies~6.01
 Compress::Raw::Zlib~2.069
 AnyEvent::HTTP::Socks~0.05
-CPAN::Meta::Requirements~2.133
+CPAN::Meta::Requirements~2.140
 File::Temp~0.2304
 IO::Compress::Bzip2~2.069
 WWW::RobotRules~6.02
-LWP~6.13
+LWP~6.15
 Module::Metadata~1.000027
 Scalar::Util~1.42
 Encode::Locale~1.05
@@ -66,7 +66,7 @@ HTTP::Negotiate~6.01
 LWP::Protocol::https~6.06
 MRO::Compat~0.12
 OAuth::Lite::Consumer
-IO::Socket::SSL~2.020
+IO::Socket::SSL~2.022
 Digest::SHA1~2.13
 HTTP::Date~6.02
 JSON::PP~2.27300
