@@ -1,5 +1,5 @@
 Net::SSLeay~1.72
-Pod::Usage~1.67
+Pod::Usage~1.68
 Pod::Text~4.04
 HTTP::Status~6.11
 IO::HTML~1.001
@@ -70,6 +70,6 @@ IO::Socket::SSL~2.022
 Digest::SHA1~2.13
 HTTP::Date~6.02
 JSON::PP~2.27300
-Mozilla::CA~20150826
+Mozilla::CA~20160104
 UNIVERSAL::require~0.18
 Class::Data::Accessor~0.04004
