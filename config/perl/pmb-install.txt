@@ -26,7 +26,7 @@ Perl::OSType~1.009
 ExtUtils::CBuilder~0.280224
 Net::HTTP~6.09
 Parse::CPAN::Meta~1.4417
-URI~1.69
+URI~1.71
 version~0.9912
 Class::Accessor~0.34
 CPAN::Meta::YAML~0.018
