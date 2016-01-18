@@ -1,6 +1,6 @@
 Net::SSLeay~1.72
 Pod::Usage~1.68
-Pod::Text~4.04
+Pod::Text~4.05
 HTTP::Status~6.11
 IO::HTML~1.001
 Encode~2.78
