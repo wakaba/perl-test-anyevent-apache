@@ -6,7 +6,7 @@ IO::HTML~1.001
 Encode~2.78
 CPAN::Meta~2.150005
 HTTP::Daemon~6.01
-Module::Build~0.4214
+Module::Build~0.4216
 List::MoreUtils~0.413
 ExtUtils::MakeMaker~7.10
 ExtUtils::ParseXS~3.30
@@ -45,9 +45,9 @@ Digest::SHA~5.95
 Crypt::SSLeay~0.72
 Try::Tiny~0.24
 Getopt::Long~2.48
+AnyEvent~7.11
 Term::ANSIColor~4.04
 parent~0.234
-AnyEvent~7.11
 Test::Class~0.50
 Exporter::Lite~0.08
 AnyEvent::HTTP~2.22
@@ -68,6 +68,7 @@ MRO::Compat~0.12
 OAuth::Lite::Consumer
 IO::Socket::SSL~2.022
 Digest::SHA1~2.13
+TAP::Harness~3.36
 HTTP::Date~6.02
 JSON::PP~2.27300
 Mozilla::CA~20160104
