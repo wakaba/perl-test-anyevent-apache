@@ -1,6 +1,6 @@
 Net::SSLeay~1.72
 Pod::Usage~1.68
-Pod::Text~4.05
+Pod::Text~4.06
 HTTP::Status~6.11
 IO::HTML~1.001
 Encode~2.80
@@ -45,7 +45,7 @@ Digest::SHA~5.95
 Crypt::SSLeay~0.72
 Try::Tiny~0.24
 Getopt::Long~2.48
-AnyEvent~7.11
+AnyEvent~7.12
 Term::ANSIColor~4.04
 parent~0.234
 Test::Class~0.50
@@ -66,7 +66,7 @@ HTTP::Negotiate~6.01
 LWP::Protocol::https~6.06
 MRO::Compat~0.12
 OAuth::Lite::Consumer
-IO::Socket::SSL~2.022
+IO::Socket::SSL~2.023
 Digest::SHA1~2.13
 TAP::Harness~3.36
 HTTP::Date~6.02
