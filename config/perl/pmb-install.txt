@@ -13,9 +13,9 @@ ExtUtils::ParseXS~3.30
 Crypt::OpenSSL::RSA~0.28
 Canary::Stability~2006
 Compress::Raw::Bzip2~2.069
-Path::Class~0.35
+Path::Class~0.36
 common::sense~3.74
-IO::Socket::Socks~0.67
+IO::Socket::Socks~0.68
 URI::Escape~3.31
 LWP::MediaTypes~6.02
 Module::Runtime~0.014
@@ -27,7 +27,7 @@ ExtUtils::CBuilder~0.280224
 Net::HTTP~6.09
 Parse::CPAN::Meta~1.4417
 URI~1.71
-version~0.9912
+version~0.9915
 Class::Accessor~0.34
 CPAN::Meta::YAML~0.018
 Carp~1.38
