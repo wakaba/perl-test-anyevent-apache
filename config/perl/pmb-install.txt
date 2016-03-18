@@ -60,7 +60,7 @@ IO::Compress::Bzip2~2.069
 WWW::RobotRules~6.02
 LWP~6.15
 Module::Metadata~1.000027
-Scalar::Util~1.43
+Scalar::Util~1.44
 Encode::Locale~1.05
 HTTP::Negotiate~6.01
 LWP::Protocol::https~6.06
