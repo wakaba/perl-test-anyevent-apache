@@ -1,6 +1,6 @@
 Net::SSLeay~1.72
 Pod::Usage~1.68
-Pod::Text~4.06
+Pod::Text~4.07
 HTTP::Status~6.11
 IO::HTML~1.001
 Encode~2.82
@@ -46,7 +46,7 @@ Crypt::SSLeay~0.72
 Try::Tiny~0.24
 Getopt::Long~2.48
 AnyEvent~7.12
-Term::ANSIColor~4.04
+Term::ANSIColor~4.05
 parent~0.234
 Test::Class~0.50
 Exporter::Lite~0.08
