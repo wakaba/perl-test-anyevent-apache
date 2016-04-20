@@ -8,7 +8,7 @@ CPAN::Meta~2.150005
 HTTP::Daemon~6.01
 Module::Build~0.4216
 List::MoreUtils~0.413
-ExtUtils::MakeMaker~7.10
+ExtUtils::MakeMaker~7.12
 ExtUtils::ParseXS~3.30
 Crypt::OpenSSL::RSA~0.28
 Canary::Stability~2011
@@ -66,7 +66,7 @@ HTTP::Negotiate~6.01
 LWP::Protocol::https~6.06
 MRO::Compat~0.12
 OAuth::Lite::Consumer
-IO::Socket::SSL~2.025
+IO::Socket::SSL~2.026
 Digest::SHA1~2.13
 TAP::Harness~3.36
 HTTP::Date~6.02
