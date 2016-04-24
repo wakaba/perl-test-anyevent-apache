@@ -8,7 +8,7 @@ CPAN::Meta~2.150005
 HTTP::Daemon~6.01
 Module::Build~0.4216
 List::MoreUtils~0.413
-ExtUtils::MakeMaker~7.12
+ExtUtils::MakeMaker~7.14
 ExtUtils::ParseXS~3.30
 Crypt::OpenSSL::RSA~0.28
 Canary::Stability~2011
@@ -70,7 +70,7 @@ IO::Socket::SSL~2.027
 Digest::SHA1~2.13
 TAP::Harness~3.36
 HTTP::Date~6.02
-JSON::PP~2.27300
+JSON::PP~2.27400
 Mozilla::CA~20160104
 UNIVERSAL::require~0.18
 Class::Data::Accessor~0.04004
