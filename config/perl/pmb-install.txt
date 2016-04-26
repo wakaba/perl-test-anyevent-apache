@@ -6,7 +6,7 @@ IO::HTML~1.001
 Encode~2.84
 CPAN::Meta~2.150005
 HTTP::Daemon~6.01
-Module::Build~0.4216
+Module::Build~0.4218
 List::MoreUtils~0.413
 ExtUtils::MakeMaker~7.14
 ExtUtils::ParseXS~3.30
