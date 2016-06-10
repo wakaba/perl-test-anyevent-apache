@@ -44,7 +44,7 @@ Test::Builder~1.302026
 Digest::SHA~5.95
 Crypt::SSLeay~0.72
 Try::Tiny~0.24
-Getopt::Long~2.48
+Getopt::Long~2.49
 AnyEvent~7.12
 Term::ANSIColor~4.05
 parent~0.234
