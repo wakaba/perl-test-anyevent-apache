@@ -22,7 +22,7 @@ Module::Runtime~0.014
 Filter::Util::Call~1.55
 HTML::Entities~3.69
 Socket~2.021
-Perl::OSType~1.009
+Perl::OSType~1.010
 ExtUtils::CBuilder~0.280224
 Net::HTTP~6.09
 Parse::CPAN::Meta~1.4417
@@ -40,7 +40,7 @@ ExtUtils::Constant~0.23
 File::Listing~6.04
 Crypt::OpenSSL::Random~0.11
 AnyEvent::Util
-Test::Builder~1.302030
+Test::Builder~1.302031
 Digest::SHA~5.95
 Crypt::SSLeay~0.72
 Try::Tiny~0.24
