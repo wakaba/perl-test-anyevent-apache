@@ -40,7 +40,7 @@ ExtUtils::Constant~0.23
 File::Listing~6.04
 Crypt::OpenSSL::Random~0.11
 AnyEvent::Util
-Test::Builder~1.302031
+Test::Builder~1.302033
 Digest::SHA~5.95
 Crypt::SSLeay~0.72
 Try::Tiny~0.24
