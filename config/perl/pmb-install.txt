@@ -25,7 +25,7 @@ Socket~2.021
 Perl::OSType~1.010
 ExtUtils::CBuilder~0.280224
 Net::HTTP~6.09
-Parse::CPAN::Meta~1.4417
+Parse::CPAN::Meta~1.4421
 URI~1.71
 version~0.9917
 Class::Accessor~0.34
@@ -40,7 +40,7 @@ ExtUtils::Constant~0.23
 File::Listing~6.04
 Crypt::OpenSSL::Random~0.11
 AnyEvent::Util
-Test::Builder~1.302033
+Test::Builder~1.302035
 Digest::SHA~5.95
 Crypt::SSLeay~0.72
 Try::Tiny~0.24
@@ -66,7 +66,7 @@ HTTP::Negotiate~6.01
 LWP::Protocol::https~6.06
 MRO::Compat~0.12
 OAuth::Lite::Consumer
-IO::Socket::SSL~2.027
+IO::Socket::SSL~2.029
 Digest::SHA1~2.13
 TAP::Harness~3.36
 HTTP::Date~6.02
