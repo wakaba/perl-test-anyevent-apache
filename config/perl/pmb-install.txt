@@ -25,7 +25,7 @@ Socket~2.021
 Perl::OSType~1.010
 ExtUtils::CBuilder~0.280224
 Net::HTTP~6.09
-Parse::CPAN::Meta~1.4421
+Parse::CPAN::Meta~1.4422
 URI~1.71
 version~0.9917
 Class::Accessor~0.34
