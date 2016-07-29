@@ -39,10 +39,10 @@ HTML::Tagset~3.20
 Exporter::Tiny~0.042
 ExtUtils::Constant~0.23
 File::Listing~6.04
-Test::Builder~1.302047
+Test::Builder~1.302049
 AnyEvent::Util
 Crypt::OpenSSL::Random~0.11
-Digest::SHA~5.95
+Digest::SHA~5.96
 Crypt::SSLeay~0.72
 Getopt::Long~2.49
 Try::Tiny~0.24
