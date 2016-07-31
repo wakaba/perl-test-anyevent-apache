@@ -1,4 +1,4 @@
-Net::SSLeay~1.74
+Net::SSLeay~1.76
 Pod::Usage~1.69
 Pod::Text~4.07
 HTTP::Status~6.11
