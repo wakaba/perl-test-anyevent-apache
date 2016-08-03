@@ -61,7 +61,7 @@ Perl::OSType~1.010
 Pod::Text~4.07
 Pod::Usage~1.69
 Scalar::Util~1.45
-Socket~2.022
+Socket~2.023
 TAP::Harness~3.36
 Term::ANSIColor~4.05
 Test::Builder~1.302049
