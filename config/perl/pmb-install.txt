@@ -17,7 +17,7 @@ Crypt::OpenSSL::Random~0.11
 Crypt::SSLeay~0.72
 Digest::SHA~5.96
 Digest::SHA1~2.13
-Encode~2.84
+Encode~2.85
 Encode::Locale~1.05
 Exporter::Lite~0.08
 Exporter::Tiny~0.042
