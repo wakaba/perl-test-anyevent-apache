@@ -23,7 +23,7 @@ Exporter::Lite~0.08
 Exporter::Tiny~0.042
 ExtUtils::CBuilder~0.280224
 ExtUtils::Constant~0.23
-ExtUtils::MakeMaker~7.20
+ExtUtils::MakeMaker~7.22
 ExtUtils::ParseXS~3.30
 File::Listing~6.04
 File::Temp~0.2304
@@ -38,7 +38,7 @@ HTTP::Negotiate~6.01
 HTTP::Status~6.11
 IO::Compress::Bzip2~2.069
 IO::HTML~1.001
-IO::Socket::SSL~2.033
+IO::Socket::SSL~2.034
 IO::Socket::Socks~0.68
 JSON::PP~2.27400
 LWP~6.15
