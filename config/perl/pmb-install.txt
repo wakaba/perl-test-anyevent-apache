@@ -17,7 +17,7 @@ Crypt::OpenSSL::Random~0.11
 Crypt::SSLeay~0.72
 Digest::SHA~5.96
 Digest::SHA1~2.13
-Encode~2.85
+Encode~2.86
 Encode::Locale~1.05
 Exporter::Lite~0.08
 Exporter::Tiny~0.042
@@ -38,7 +38,7 @@ HTTP::Negotiate~6.01
 HTTP::Status~6.11
 IO::Compress::Bzip2~2.069
 IO::HTML~1.001
-IO::Socket::SSL~2.034
+IO::Socket::SSL~2.036
 IO::Socket::Socks~0.68
 JSON::PP~2.27400
 LWP~6.15
@@ -61,7 +61,7 @@ Perl::OSType~1.010
 Pod::Text~4.07
 Pod::Usage~1.69
 Scalar::Util~1.45
-Socket~2.023
+Socket~2.024
 TAP::Harness~3.36
 Term::ANSIColor~4.05
 Test::Builder~1.302049
