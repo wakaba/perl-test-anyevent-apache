@@ -53,7 +53,7 @@ Module::Metadata~1.000033
 Module::Runtime~0.014
 Mozilla::CA~20160104
 Net::HTTP~6.09
-Net::SSLeay~1.77
+Net::SSLeay~1.78
 OAuth::Lite::Consumer
 Parse::CPAN::Meta~1.4422
 Path::Class~0.36
