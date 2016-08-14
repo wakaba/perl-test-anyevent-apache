@@ -56,7 +56,7 @@ Net::HTTP~6.09
 Net::SSLeay~1.78
 OAuth::Lite::Consumer
 Parse::CPAN::Meta~1.4422
-Path::Class~0.36
+Path::Class~0.37
 Perl::OSType~1.010
 Pod::Text~4.07
 Pod::Usage~1.69
@@ -64,7 +64,7 @@ Scalar::Util~1.45
 Socket~2.024
 TAP::Harness~3.36
 Term::ANSIColor~4.05
-Test::Builder~1.302049
+Test::Builder~1.302052
 Test::Class~0.50
 Try::Tiny~0.24
 UNIVERSAL::require~0.18
