@@ -66,7 +66,7 @@ TAP::Harness~3.36
 Term::ANSIColor~4.05
 Test::Builder~1.302052
 Test::Class~0.50
-Try::Tiny~0.24
+Try::Tiny~0.27
 UNIVERSAL::require~0.18
 URI~1.71
 URI::Escape~3.31
