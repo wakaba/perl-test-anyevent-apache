@@ -2,7 +2,7 @@ AnyEvent~7.12
 AnyEvent::HTTP~2.22
 AnyEvent::HTTP::Socks~0.05
 AnyEvent::Util
-CPAN::Meta~2.150005
+CPAN::Meta~2.150010
 CPAN::Meta::Requirements~2.140
 CPAN::Meta::YAML~0.018
 Canary::Stability~2011
@@ -55,7 +55,6 @@ Mozilla::CA~20160104
 Net::HTTP~6.09
 Net::SSLeay~1.78
 OAuth::Lite::Consumer
-Parse::CPAN::Meta~1.4422
 Path::Class~0.37
 Perl::OSType~1.010
 Pod::Text~4.07
