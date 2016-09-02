@@ -70,7 +70,7 @@ UNIVERSAL::require~0.18
 URI~1.71
 URI::Escape~3.31
 WWW::RobotRules~6.02
-XSLoader~0.22
+XSLoader~0.24
 common::sense~3.74
 parent~0.234
 version~0.9917
