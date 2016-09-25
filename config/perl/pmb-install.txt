@@ -5,7 +5,7 @@ AnyEvent::Util
 CPAN::Meta~2.150010
 CPAN::Meta::Requirements~2.140
 CPAN::Meta::YAML~0.018
-Canary::Stability~2011
+Canary::Stability~2012
 Carp~1.38
 Class::Accessor~0.34
 Class::Data::Accessor~0.04004
@@ -57,7 +57,7 @@ Net::SSLeay~1.78
 OAuth::Lite::Consumer
 Path::Class~0.37
 Perl::OSType~1.010
-Pod::Text~4.07
+Pod::Text~4.08
 Pod::Usage~1.69
 Scalar::Util~1.45
 Socket~2.024
