@@ -59,7 +59,7 @@ Path::Class~0.37
 Perl::OSType~1.010
 Pod::Text~4.08
 Pod::Usage~1.69
-Scalar::Util~1.45
+Scalar::Util~1.46
 Socket~2.024
 TAP::Harness~3.36
 Term::ANSIColor~4.05
