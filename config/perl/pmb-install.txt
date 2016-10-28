@@ -11,7 +11,7 @@ Crypt::OpenSSL::Random~0.11
 Crypt::SSLeay~0.72
 Digest::SHA~5.96
 Digest::SHA1~2.13
-Encode~2.86
+Encode~2.87
 Encode::Locale~1.05
 Exporter::Lite~0.08
 Exporter::Tiny~0.042
@@ -19,15 +19,14 @@ File::Listing~6.04
 File::Temp~0.2304
 Filter::Util::Call~1.55
 Getopt::Long~2.49
-HTML::Entities~3.69
 HTML::HeadParser~3.71
 HTML::Tagset~3.20
 HTTP::Cookies~6.01
 HTTP::Daemon~6.01
 HTTP::Date~6.02
+HTTP::Headers::Util~6.11
 HTTP::Negotiate~6.01
-HTTP::Request~6.11
-HTTP::Response~6.11
+HTTP::Request::Common~6.11
 HTTP::Status~6.11
 IO::HTML~1.001
 IO::Socket::SSL~2.038
@@ -44,7 +43,7 @@ Mozilla::CA~20160104
 Net::HTTP~6.09
 Net::HTTPS~6.09
 Net::SSLeay~1.78
-OAuth::Lite::Consumer
+OAuth::Lite::AuthMethod
 Path::Class~0.37
 Pod::Text~4.08
 Pod::Usage~1.69
