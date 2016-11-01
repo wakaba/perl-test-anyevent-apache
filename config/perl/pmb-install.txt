@@ -1,6 +1,7 @@
 AnyEvent~7.13
 AnyEvent::HTTP~2.23
 AnyEvent::HTTP::Socks~0.05
+AnyEvent::Util
 Canary::Stability~2012
 Carp~1.38
 Class::Accessor~0.34
@@ -25,14 +26,12 @@ HTML::Tagset~3.20
 HTTP::Cookies~6.01
 HTTP::Daemon~6.01
 HTTP::Date~6.02
-HTTP::Headers::Util~6.11
 HTTP::Negotiate~6.01
-HTTP::Request::Common~6.11
-HTTP::Response~6.11
+HTTP::Request~6.11
 HTTP::Status~6.11
 IO::HTML~1.001
 IO::Socket::SSL~2.038
-IO::Socket::Socks~0.71
+IO::Socket::Socks~0.72
 LWP~6.15
 LWP::MediaTypes~6.02
 LWP::Protocol::https~6.06
@@ -51,8 +50,8 @@ Pod::Text~4.08
 Pod::Usage~1.69
 Scalar::Util~1.46
 Term::ANSIColor~4.06
-Test::Builder~1.302062
 Test::Class~0.50
+Test::More~1.302062
 Try::Tiny~0.27
 UNIVERSAL::require~0.18
 URI~1.71
