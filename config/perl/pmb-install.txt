@@ -25,10 +25,10 @@ HTML::Tagset~3.20
 HTTP::Cookies~6.01
 HTTP::Daemon~6.01
 HTTP::Date~6.02
-HTTP::Headers::Util~6.11
+HTTP::Headers~6.11
 HTTP::Negotiate~6.01
 HTTP::Request::Common~6.11
-HTTP::Response~6.11
+HTTP::Status~6.11
 IO::HTML~1.001
 IO::Socket::SSL~2.038
 IO::Socket::Socks~0.72
@@ -46,12 +46,12 @@ Net::HTTPS~6.09
 Net::SSLeay~1.78
 OAuth::Lite::Consumer
 Path::Class~0.37
-Pod::Text~4.08
+Pod::Text~4.09
 Pod::Usage~1.69
 Scalar::Util~1.46
 Term::ANSIColor~4.06
+Test::Builder~1.302062
 Test::Class~0.50
-Test::More~1.302062
 Try::Tiny~0.27
 UNIVERSAL::require~0.18
 URI~1.71
