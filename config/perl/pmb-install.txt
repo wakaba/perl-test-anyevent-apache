@@ -1,7 +1,6 @@
 AnyEvent~7.13
 AnyEvent::HTTP~2.23
 AnyEvent::HTTP::Socks~0.05
-AnyEvent::Util
 Canary::Stability~2012
 Carp~1.38
 Class::Accessor~0.34
@@ -20,7 +19,7 @@ File::Listing~6.04
 File::Temp~0.2304
 Filter::Util::Call~1.55
 Getopt::Long~2.49
-HTML::HeadParser~3.71
+HTML::Entities~3.69
 HTML::Tagset~3.20
 HTTP::Cookies~6.01
 HTTP::Daemon~6.01
@@ -41,7 +40,6 @@ MRO::Compat~0.12
 Module::Runtime~0.014
 Mozilla::CA~20160104
 Net::HTTP~6.09
-Net::HTTPS~6.09
 Net::SSLeay~1.78
 OAuth::Lite::Token
 Path::Class~0.37
