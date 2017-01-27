@@ -25,9 +25,8 @@ HTML::Tagset~3.20
 HTTP::Cookies~6.01
 HTTP::Daemon~6.01
 HTTP::Date~6.02
-HTTP::Headers::Util~6.11
+HTTP::Headers~6.11
 HTTP::Negotiate~6.01
-HTTP::Request::Common~6.11
 HTTP::Response~6.11
 IO::HTML~1.001
 IO::Socket::SSL~2.044
