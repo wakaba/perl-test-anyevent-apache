@@ -1,7 +1,6 @@
 AnyEvent~7.13
 AnyEvent::HTTP~2.23
 AnyEvent::HTTP::Socks~0.05
-AnyEvent::Util
 Canary::Stability~2012
 Carp~1.38
 Class::Accessor~0.34
@@ -28,7 +27,7 @@ HTTP::Daemon~6.01
 HTTP::Date~6.02
 HTTP::Headers~6.11
 HTTP::Negotiate~6.01
-HTTP::Request~6.11
+HTTP::Request::Common~6.11
 IO::HTML~1.001
 IO::Socket::SSL~2.047
 IO::Socket::Socks~0.73
@@ -42,6 +41,7 @@ MRO::Compat~0.12
 Module::Runtime~0.014
 Mozilla::CA~20160104
 Net::HTTP~6.12
+Net::HTTPS~6.12
 Net::SSLeay~1.80
 OAuth::Lite::AuthMethod
 Path::Class~0.37
@@ -49,8 +49,8 @@ Pod::Text~4.09
 Pod::Usage~1.69
 Scalar::Util~1.47
 Term::ANSIColor~4.06
-Test::Builder~1.302075
 Test::Class~0.50
+Test::More~1.302075
 Try::Tiny~0.28
 UNIVERSAL::require~0.18
 URI~1.71
