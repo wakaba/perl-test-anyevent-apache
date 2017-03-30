@@ -1,7 +1,6 @@
 AnyEvent~7.13
 AnyEvent::HTTP~2.23
 AnyEvent::HTTP::Socks~0.05
-AnyEvent::Util
 Canary::Stability~2012
 Carp~1.38
 Class::Accessor~0.34
@@ -26,9 +25,9 @@ HTML::Tagset~3.20
 HTTP::Cookies~6.01
 HTTP::Daemon~6.01
 HTTP::Date~6.02
-HTTP::Headers::Util~6.11
 HTTP::Negotiate~6.01
-HTTP::Status~6.11
+HTTP::Request~6.11
+HTTP::Response~6.11
 IO::HTML~1.001
 IO::Socket::SSL~2.047
 IO::Socket::Socks~0.73
@@ -36,14 +35,14 @@ LWP~6.24
 LWP::MediaTypes~6.02
 LWP::Protocol::https~6.07
 LWP::UserAgent~6.24
-List::MoreUtils~0.416
+List::MoreUtils~0.418
 MIME::Base64~3.15
-MRO::Compat~0.12
+MRO::Compat~0.13
 Module::Runtime~0.014
 Mozilla::CA~20160104
 Net::HTTP~6.13
-Net::SSLeay~1.80
-OAuth::Lite::Consumer
+Net::SSLeay~1.81
+OAuth::Lite::AuthMethod
 Path::Class~0.37
 Pod::Text~4.09
 Pod::Usage~1.69
@@ -55,5 +54,4 @@ Try::Tiny~0.28
 UNIVERSAL::require~0.18
 URI~1.71
 WWW::RobotRules~6.02
-XSLoader~0.24
 common::sense~3.74
