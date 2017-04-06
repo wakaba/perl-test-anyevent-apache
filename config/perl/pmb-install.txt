@@ -27,7 +27,7 @@ HTTP::Daemon~6.01
 HTTP::Date~6.02
 HTTP::Negotiate~6.01
 HTTP::Request~6.11
-HTTP::Status~6.11
+HTTP::Response~6.11
 IO::HTML~1.001
 IO::Socket::SSL~2.047
 IO::Socket::Socks~0.73
@@ -35,12 +35,13 @@ LWP~6.25
 LWP::MediaTypes~6.02
 LWP::Protocol::https~6.07
 LWP::UserAgent~6.25
-List::MoreUtils~0.418
+List::MoreUtils~0.419
 MIME::Base64~3.15
 MRO::Compat~0.13
 Module::Runtime~0.014
 Mozilla::CA~20160104
 Net::HTTP~6.13
+Net::HTTPS~6.13
 Net::SSLeay~1.81
 OAuth::Lite::Token
 Path::Class~0.37
@@ -48,10 +49,11 @@ Pod::Text~4.09
 Pod::Usage~1.69
 Scalar::Util~1.47
 Term::ANSIColor~4.06
+Test::Builder~1.302078
 Test::Class~0.50
-Test::More~1.302078
 Try::Tiny~0.28
 UNIVERSAL::require~0.18
 URI~1.71
+URI::Escape~3.31
 WWW::RobotRules~6.02
 common::sense~3.74
