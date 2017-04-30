@@ -25,9 +25,8 @@ HTML::Tagset~3.20
 HTTP::Cookies~6.03
 HTTP::Daemon~6.01
 HTTP::Date~6.02
-HTTP::Headers::Util~6.11
+HTTP::Headers~6.11
 HTTP::Negotiate~6.01
-HTTP::Request~6.11
 HTTP::Response~6.11
 IO::HTML~1.001
 IO::Socket::SSL~2.048
@@ -42,7 +41,6 @@ MRO::Compat~0.13
 Module::Runtime~0.014
 Mozilla::CA~20160104
 Net::HTTP~6.14
-Net::HTTPS~6.14
 Net::SSLeay~1.81
 OAuth::Lite::Consumer
 Path::Class~0.37
