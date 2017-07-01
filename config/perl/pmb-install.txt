@@ -1,6 +1,7 @@
 AnyEvent~7.14
 AnyEvent::HTTP~2.23
 AnyEvent::HTTP::Socks~0.05
+AnyEvent::Util
 Canary::Stability~2012
 Carp~1.38
 Class::Accessor~0.34
@@ -25,8 +26,9 @@ HTTP::Cookies~6.03
 HTTP::Daemon~6.01
 HTTP::Date~6.02
 HTTP::Headers~6.13
-HTTP::Headers::Util~6.13
 HTTP::Negotiate~6.01
+HTTP::Request~6.13
+HTTP::Request::Common~6.13
 IO::HTML~1.001
 IO::Socket::SSL~2.049
 IO::Socket::Socks~0.74
