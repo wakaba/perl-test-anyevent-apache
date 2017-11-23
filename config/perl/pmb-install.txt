@@ -1,6 +1,7 @@
 AnyEvent~7.14
 AnyEvent::HTTP~2.23
 AnyEvent::HTTP::Socks~0.05
+AnyEvent::Util
 Canary::Stability~2012
 Carp~1.38
 Class::Accessor~0.51
@@ -27,7 +28,6 @@ HTTP::Daemon~6.01
 HTTP::Date~6.02
 HTTP::Headers~6.13
 HTTP::Negotiate~6.01
-HTTP::Request::Common~6.13
 HTTP::Response~6.13
 HTTP::Status~6.13
 IO::HTML~1.001
@@ -51,11 +51,12 @@ Pod::Text~4.09
 Pod::Usage~1.69
 Scalar::Util~1.49
 Term::ANSIColor~4.06
+Test::Builder~1.302113
 Test::Class~0.50
-Test::More~1.302112
 Try::Tiny~0.28
 UNIVERSAL::require~0.18
 URI~1.72
+URI::Escape~3.31
 WWW::RobotRules~6.02
 XSLoader~0.24
 common::sense~3.74
