@@ -1,6 +1,7 @@
 AnyEvent~7.14
 AnyEvent::HTTP~2.23
 AnyEvent::HTTP::Socks~0.05
+AnyEvent::Util
 Canary::Stability~2012
 Carp~1.38
 Class::Accessor~0.51
@@ -27,8 +28,8 @@ HTTP::Daemon~6.01
 HTTP::Date~6.02
 HTTP::Negotiate~6.01
 HTTP::Request~6.14
-HTTP::Request::Common~6.14
 HTTP::Response~6.14
+HTTP::Status~6.14
 IO::HTML~1.001
 IO::Socket::SSL~2.054
 IO::Socket::Socks~0.74
@@ -45,7 +46,7 @@ Mozilla::CA~20160104
 Net::HTTP~6.17
 Net::HTTPS~6.17
 Net::SSLeay~1.84
-OAuth::Lite::AuthMethod
+OAuth::Lite::Consumer
 Path::Class~0.37
 Pod::Text~4.10
 Pod::Usage~1.69
