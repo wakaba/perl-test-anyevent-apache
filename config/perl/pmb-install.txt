@@ -8,7 +8,7 @@ Class::Data::Accessor~0.04004
 Class::ErrorHandler~0.04
 Crypt::OpenSSL::Guess~0.11
 Crypt::OpenSSL::RSA~0.28
-Crypt::OpenSSL::Random~0.13
+Crypt::OpenSSL::Random~0.14
 Crypt::SSLeay~0.72
 Digest::SHA~6.01
 Digest::SHA1~2.13
@@ -27,7 +27,9 @@ HTTP::Cookies~6.04
 HTTP::Daemon~6.01
 HTTP::Date~6.02
 HTTP::Negotiate~6.01
+HTTP::Request~6.16
 HTTP::Request::Common~6.16
+HTTP::Response~6.16
 HTTP::Status~6.16
 IO::HTML~1.001
 IO::Socket::SSL~2.056
