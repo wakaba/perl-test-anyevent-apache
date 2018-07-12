@@ -18,10 +18,9 @@ Encode::Locale~1.05
 Exporter::Lite~0.08
 Exporter::Tiny~1.000000
 File::Listing~6.04
-File::Temp~0.2306
+File::Temp~0.2308
 Filter::Util::Call~1.58
 Getopt::Long~2.5
-HTML::Entities~3.69
 HTML::HeadParser~3.71
 HTML::Tagset~3.20
 HTTP::Cookies~6.04
@@ -44,8 +43,9 @@ MRO::Compat~0.13
 Module::Runtime~0.016
 Mozilla::CA~20180117
 Net::HTTP~6.18
+Net::HTTPS~6.18
 Net::SSLeay~1.85
-OAuth::Lite::AuthMethod
+OAuth::Lite::Token
 Path::Class~0.37
 Pod::Text~4.11
 Pod::Usage~1.69
