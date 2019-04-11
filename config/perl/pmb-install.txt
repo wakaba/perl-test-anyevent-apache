@@ -50,7 +50,7 @@ Mozilla::CA~20180117
 Net::HTTP~6.18
 Net::HTTPS~6.18
 Net::SSLeay~1.85
-OAuth::Lite::AuthMethod
+OAuth::Lite::Token
 Path::Class~0.37
 Pod::Text~4.11
 Pod::Usage~1.69
@@ -63,7 +63,6 @@ Test::Needs~0.002006
 Try::Tiny~0.30
 UNIVERSAL::require~0.18
 URI~1.76
-URI::Escape~3.31
 WWW::RobotRules~6.02
 XSLoader~0.24
 common::sense~3.74
