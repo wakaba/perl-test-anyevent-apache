@@ -1,7 +1,6 @@
 AnyEvent~7.17
 AnyEvent::HTTP~2.24
 AnyEvent::HTTP::Socks~0.05
-AnyEvent::Util
 Canary::Stability~2013
 Carp~1.50
 Class::Accessor~0.51
