@@ -49,9 +49,8 @@ Module::Build::Tiny~0.039
 Module::Runtime~0.016
 Mozilla::CA~20180117
 Net::HTTP~6.19
-Net::HTTPS~6.19
 Net::SSLeay~1.88
-OAuth::Lite::Token
+OAuth::Lite::Consumer
 Path::Class~0.37
 Pod::Text~4.14
 Pod::Usage~1.69
