@@ -32,7 +32,7 @@ HTTP::Date~6.05
 HTTP::Negotiate~6.01
 HTTP::Request~6.22
 HTTP::Request::Common~6.22
-HTTP::Response~6.22
+HTTP::Status~6.22
 IO::HTML~1.001
 IO::Socket::IP~0.39
 IO::Socket::SSL~2.067
@@ -50,10 +50,10 @@ Module::Runtime~0.016
 Mozilla::CA~20180117
 Net::HTTP~6.19
 Net::SSLeay~1.88
-OAuth::Lite::Consumer
+OAuth::Lite::AuthMethod
 Path::Class~0.37
 Pod::Text~4.14
-Pod::Usage~1.69
+Pod::Usage~1.70
 Scalar::Util~1.54
 TAP::Harness::Env~3.42
 Term::ANSIColor~5.01
