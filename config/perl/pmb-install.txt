@@ -39,7 +39,7 @@ IO::Socket::SSL~2.068
 IO::Socket::Socks~0.74
 LWP~6.46
 LWP::MediaTypes~6.04
-LWP::Protocol::https~6.07
+LWP::Protocol::https~6.09
 LWP::UserAgent~6.46
 List::MoreUtils~0.428
 List::MoreUtils::XS~0.428
@@ -51,7 +51,7 @@ Mozilla::CA~20200520
 Net::HTTP~6.19
 Net::HTTPS~6.19
 Net::SSLeay~1.88
-OAuth::Lite::AuthMethod
+OAuth::Lite::Consumer
 Path::Class~0.37
 Pod::Text~4.14
 Pod::Usage~1.70
